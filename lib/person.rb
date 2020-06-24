@@ -79,9 +79,15 @@ end
     if @topic == politics
      self.happiness = @happiness - 3
      friend.happiness= friend.happiness -3
-    return 
+    return "blah blah partisan blah lobbyist"
   end
-    
+if @topic == weather
+  elf.happiness = @happiness - 2
+     friend.happiness= friend.happiness -2
+     return 
+  end
+
+
     
   
   
