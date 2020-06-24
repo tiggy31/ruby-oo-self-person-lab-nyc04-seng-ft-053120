@@ -84,10 +84,10 @@ end
 if @topic == weather
   elf.happiness = @happiness - 2
      friend.happiness= friend.happiness -2
-     return 
+     return "blah blah sun blah rain"
   end
 
-
+if @topic 
     
   
   
