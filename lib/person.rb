@@ -82,12 +82,13 @@ end
     return "blah blah partisan blah lobbyist"
   end
 elsif @topic == weather
-  elf.happiness = @happiness - 2
+  self.happiness = @happiness - 2
      friend.happiness= friend.happiness -2
      return "blah blah sun blah rain"
   end
 
-if @topic 
+else 
+  return 
     
   
   
