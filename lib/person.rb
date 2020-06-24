@@ -77,7 +77,8 @@ end
   def start_conversation(person,topic)
     
     if @topic == politics
-     self.happiness
+     self.happiness = @happiness - 3
+     friend.happiness= friend.happiness -3
     
   end
     
