@@ -76,12 +76,12 @@ end
   
   def start_conversation(friend,topic)
     
-    if @topic == politics
+    if topic == politics
      self.happiness = @happiness - 3
      friend.happiness= friend.happiness -3
     return "blah blah partisan blah lobbyist"
   end
-elsif @topic == weather
+elsif topic == weather
   self.happiness = @happiness - 2
      friend.happiness= friend.happiness -2
      return "blah blah sun blah rain"
