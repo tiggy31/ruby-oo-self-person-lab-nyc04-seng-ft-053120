@@ -74,7 +74,14 @@ end
   end
   
   
-  def 
+  def start_conversation(person,topic)
+    
+    if @topic == politics
+      self.friend 
+    
+  end
+    
+    
   
   
 end
