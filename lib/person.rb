@@ -81,7 +81,7 @@ end
      friend.happiness= friend.happiness -3
     return "blah blah partisan blah lobbyist"
   end
-if @topic == weather
+elsif @topic == weather
   elf.happiness = @happiness - 2
      friend.happiness= friend.happiness -2
      return "blah blah sun blah rain"
