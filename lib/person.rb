@@ -85,8 +85,6 @@ elsif @topic == weather
   self.happiness = @happiness - 2
      friend.happiness= friend.happiness -2
      return "blah blah sun blah rain"
-  end
-
 else 
   return "blah blah blah blah blah"
     
