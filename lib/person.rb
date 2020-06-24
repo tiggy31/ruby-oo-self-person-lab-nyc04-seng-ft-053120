@@ -77,12 +77,12 @@ end
   def start_conversation(friend,topic)
     
     if topic == "politics"
-      self.happiness= @happiness - 3
-      friend.happiness= friend.happiness - 3
+      self.happiness= @happiness - 2
+      friend.happiness= friend.happiness - 2
       return "blah blah partisan blah lobbyist"
     elsif topic == "weather"
-      self.happiness= @happiness + 2
-      friend.happiness= friend.happiness + 2
+      self.happiness= @happiness + 1
+      friend.happiness= friend.happiness + 1
       return "blah blah sun blah rain"
     else
       return "blah blah blah blah blah"
