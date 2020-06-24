@@ -88,9 +88,9 @@ elsif @topic == weather
   end
 
 else 
-  return 
+  return "blah blah blah blah blah"
     
-  
+  end
   
 end
 
